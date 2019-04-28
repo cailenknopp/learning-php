@@ -3,6 +3,8 @@
 STRINGS:
 
 There are differnt types of strings in PHP.
+
+>>Single Quoted String
 > A single quoted string looks like so:
 
 <?php
@@ -14,3 +16,20 @@ hello world
 
 > Unlike other types of strings in PHP, variables and escape sequences for special characters
 will not be expanded in single quoted strings.
+
+> Single quoted strings are the easiest way to specifiy a string. Identifying a literal single
+quote use a backslash.
+Example:
+
+<?php
+echo 'Tom\'s mother is named Abbigale.'
+
+> The output will be:
+
+Tom's mother is named Abbigale.
+
+> Every other instace of single quote strings are taken literally, with no special function
+or meaning.
+
+>>Double Quoted Strings
+>Double quoted strings use a double quote ("). These can contain special characters 
