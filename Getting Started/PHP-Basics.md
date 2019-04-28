@@ -1,0 +1,1 @@
+PHP is designed to interact wit HTML to generate *dynamic websites*.
