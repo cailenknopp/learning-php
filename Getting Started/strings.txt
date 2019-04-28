@@ -22,14 +22,42 @@ quote use a backslash.
 Example:
 
 <?php
-echo 'Tom\'s mother is named Abbigale.'
+echo 'The love of Jay\'s life is Daisy.'
 
 > The output will be:
 
-Tom's mother is named Abbigale.
+The love of Jay's life is Daisy.
 
 > Every other instace of single quote strings are taken literally, with no special function
 or meaning.
 
 >>Double Quoted Strings
->Double quoted strings use a double quote ("). These can contain special characters 
+> Double quoted strings use a double quote ("). These can contain special characters.
+
+> Similar to single quoted strings, to specify a double quote using a double quoted string use
+a backslash.
+Example:
+
+<?php
+echo "Writing this .txt file is \"fun\"."
+
+> The output will be:
+
+Writing this .txt file is "fun".
+
+> *it actually is fun learning PHP and taking down these notes!
+
+> In the case of both single and doulbe quoted strings, to specify a literal backslash use (\\).
+
+
+
+
+
+
+
+
+
+
+
+
+
