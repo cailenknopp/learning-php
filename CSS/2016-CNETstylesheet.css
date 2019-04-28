@@ -1,0 +1,137 @@
+/*
+This is the orginal stylesheet for cailen.net-1.0.
+Used for this project for basic CSS on some sample files.
+
+Source:(https://github.com/cailenknopp/cailen.net-1.0/blob/master/code/css/style.css)
+*/
+
+font-face {
+font-family:ProFontWindows;
+src:url(http://http://cailen.net/ProFontWindows.ttf);
+}
+@font-face {
+font-family: SourceCodePro;
+src:url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+}
+body {
+    
+    font-family: 'ProFontWindows', SourceCodePro, monospace;
+    /*font-family: 'ProFontWindows', Source Code Pro, monospace;*/
+    line-height: 120%;
+    background-color: black;
+    width: 700px;
+}
+
+a {
+    color: chartreuse;
+}
+
+a:hover {
+    color: cyan;
+}
+
+img {
+    border: 2px;
+    border-style: dotted;
+    border-color: darkorange;
+}
+
+.imgInfo {
+    margin-top: 0;
+}
+
+/*ID's*/
+
+#link-ref {
+    color: purple;
+}
+
+/*Page Header*/
+
+.pgHeader {
+	color: darkorange;
+	
+	border-bottom:1px;
+	border-bottom-style: dashed;
+	border-bottom-color: darkorange;
+}
+
+/*Page Body*/
+
+.pgBody {
+    color: tomato;
+    
+    border-bottom:1px;
+	border-bottom-style: dashed;
+	border-bottom-color: darkorange;
+}
+
+/*Page News/Secondary Block*/
+
+.pgNews {
+    color: tomato;
+        
+    border-bottom:1px;
+	border-bottom-style: dashed;
+	border-bottom-color: darkorange;
+}
+
+/*Site Links*/
+
+.pgCailenSites {
+	color: tomato;
+	
+	border-bottom:1px;
+	border-bottom-style: dashed;
+	border-bottom-color: darkorange;
+}
+
+
+
+/*Page Links*/
+
+.pgLinks {
+    color: tomato;
+    
+    border-bottom:1px;
+	border-bottom-style: dashed;
+	border-bottom-color: darkorange;
+}
+
+/*Page Footer*/
+
+.pgFooter {
+    color: tomato;
+}
+
+.codedBy {
+ 	-webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% {color: red;}
+    25% {color: yellow;}
+    50% {color: cyan;}
+	75% {color: chartreuse;}
+	100% {color: red;}
+}
+@-moz-keyframes color-change {
+    0% {color: red;}
+    25% {color: yellow;}
+    50% {color: cyan;}
+	75% {color: chartreuse;}
+	100% {color: red;}
+}
+@keyframes color-change {
+    0% {color: red;}
+    25% {color: yellow;}
+    50% {color: cyan;}
+	75% {color: chartreuse;}
+	100% {color: red;}
+}
+
+#ftComment {
+	color: darkorange;
+}
