@@ -1,0 +1,16 @@
+[https://php.net/manual/en/language.types.string.php]
+
+STRINGS:
+
+There are differnt types of strings in PHP.
+> A single quoted string looks like so:
+
+<?php
+echo 'hello world'
+
+> The output of this will be, unsuprisingly: 
+
+hello world
+
+> Unlike other types of strings in PHP, variables and escape sequences for special characters
+will not be expanded in single quoted strings.
