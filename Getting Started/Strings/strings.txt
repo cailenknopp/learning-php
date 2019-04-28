@@ -49,15 +49,12 @@ Writing this .txt file is "fun".
 
 > In the case of both single and doulbe quoted strings, to specify a literal backslash use (\\).
 
+> When using a double quoted string, to specify a dollar sign use (\$).
 
 
+> There are other sequences while using double quoted strings, however I will take notes on these
+in another document.
 
-
-
-
-
-
-
-
-
-
+>>Heredoc
+> This is the third type of strings in PHP,
+**** I will learn about these later!
