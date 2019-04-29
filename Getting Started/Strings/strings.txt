@@ -51,6 +51,7 @@ Writing this .txt file is "fun".
 
 > When using a double quoted string, to specify a dollar sign use (\$).
 
+> When printing a double quoted string, to display a second string on a new line use (\n)
 
 > There are other sequences while using double quoted strings, however I will take notes on these
 in another document.
@@ -58,3 +59,10 @@ in another document.
 >>Heredoc
 > This is the third type of strings in PHP,
 **** I will learn about these later!
+
+>>String Concatenation
+> Combine two strings using (.)
+Example:
+
+<?php
+echo "
